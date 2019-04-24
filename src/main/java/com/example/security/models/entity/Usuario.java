@@ -1,11 +1,11 @@
 package com.example.security.models.entity;
 
+import org.mongodb.morphia.annotations.Entity;
+
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Set;
 
-
-import javax.persistence.Entity;
 
 /**
  * The Class Usuario.
