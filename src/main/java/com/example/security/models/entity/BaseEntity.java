@@ -4,10 +4,10 @@ import java.io.Serializable;
 import java.util.Date;
 
 import org.bson.types.ObjectId;
+import org.mongodb.morphia.annotations.PrePersist;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Version;
 
-import javax.persistence.PrePersist;
 
 public abstract class BaseEntity implements Serializable {
     private static final long serialVersionUID = 1L;
